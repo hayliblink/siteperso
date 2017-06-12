@@ -1,0 +1,53 @@
+html,
+body {
+width: 100%;
+height: 100%;
+background-color: black ;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+.text {
+position: absolute;
+top:45%;
+text-align: justify;
+margin-top: 0 0 0 -400px;
+height: 50em;
+top: auto;
+bottom: 0;
+width: 800px;
+color: #ffff66;
+font-size: 26px;
+transform-origin: center bottom;
+transform: perspective(300px) rotateX(25deg);
+}
+
+.text > div {
+position: absolute;
+top: 100%; 
+animation-delay: 1s;
+animation-name: pouet;
+animation-duration: 30s;
+animation-timing-function: linear;
+
+}
+
+
+@keyframes pouet {
+	0% { 
+    top: 100%; 
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+	100% { 
+    top: 0%; 
+    opacity: 0;
+  }
+}
+
+
+

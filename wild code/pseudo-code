@@ -1,0 +1,18 @@
+Problème : Algorithme permettant de déterminer l'année de naissance de l'utilisateur selon son age.
+
+DEBUT
+
+Créer une variable année de naissance
+
+    Demander l'age de l'utilisateur
+
+        le nombreSaisi signifie l'age
+
+            sauvegarder l'age
+
+        résultat de l'année de naissance = 2017 - age
+
+    Afficher Résultat " Vous êtes né en résultat"
+
+FIN ```
+

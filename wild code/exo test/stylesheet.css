@@ -1,0 +1,22 @@
+
+body {
+		background-color: mediumpurple;
+}
+
+#carre{
+    width: 200px;
+    height: 200px;
+background-color: purple;
+-webkit-animation: 2s linear 0s infinite alternate carre;
+     -moz-animation: 2s linear 0s infinite alternate carre;
+       -o-animation: 2s linear 0s infinite alternate carre;
+          animation: 2s linear 0s infinite alternate carre;
+}
+
+@-webkit-keyframes carre { from { margin-left:0%; } to { margin-left:100%; }  }
+   @-moz-keyframes carre { from { margin-left:0%; } to { margin-left:100%; }  }
+     @-o-keyframes carre { from { margin-left:0%; } to { margin-left:100%; }  }
+        @keyframes carre { from { margin-left:0%; } to { margin-left:100%; }  }
+
+}
+
